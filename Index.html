@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" >
+        <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">   
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">   
+        <link rel="stylesheet" href="index.css">
+        <title>
+          Predictamen
+        </title>
+    </head>
+
+    <body>
+        
+        <header>
+                <!-- <section class=" d-flex row clsBannerSup"> -->
+                  <div class="col-12 clsBannerSup"> 
+                   <!-- <figure class="Figheaderlogo">  -->
+                     <img class="Clsimgheader" src="imagenes/logo-gl.svg" style="float:left" alt="Equipos logo" width="100" height="100">
+                   <!-- </figure> -->
+                  </div> 
+                <!-- </section> -->
+        </header>
+        
+           
+
+        <div class="d-flex row">
+          <aside class="col-md-12 clsaside">
+             
+            <div class="col-3 clsAsideOpcion">
+               <P class="ClsPOpcion">Cargar información</P>
+            </div>
+             <div class="col-3 clsAsideOpcion">
+               <p>Ver información</p>
+              
+            </div>
+            <div class="col-3 clsAsideOpcion">
+              <p>Oficios</p>
+              
+            </div>
+            <div class="col-3 clsAsideOpcion">
+              <p>Resumen</p>
+           </div>
+          </aside>
+        </div>
+
+        <section class="d-flex row">
+            <div class="col-lg-6 offset-lg-3 ClsSectionDiv">
+              <span>Carga tu información</span>
+              <label for="formFile" class="form-label"> Selecciona tu archivo .json </label>
+              <input class="form-control" type="file" id="formFile">
+              <button type="submit" class="btn btn-primary" onclick="">Revisar</button>
+            </div>
+            <div>
+              <table
+              data-toggle="table"
+              data-url="data1.json"
+              data-pagination="true"
+              data-search="true">
+              <thead>
+                  <tr>
+                      <th data-sortable="true" data-field="id">Item ID</th>
+                      <th data-field="name">Item Name</th>
+                      <th data-field="price">Item Price</th>
+                  </tr>
+                </thead>
+            </table>  
+
+            </div>
+
+          </section>
+
+        
+
+        <footer>
+            <div class="col-12 text-center ClsFooter">
+              <div class="secretaria-title" title="Gobierno del Estado de Guanajuato"> 
+                   Gobierno del Estado de Guanajuato 
+              </div>
+              <div class="address" title="Paseo de la Presa 103, Centro, C.P. 36000, Guanajuato, Gto."> 
+                   Paseo de la Presa 103, Centro, C.P. 36000, Guanajuato, Gto. TEL: 800 465-2486 
+              </div>
+              <div  class="social">
+                <a  target="_blank" rel="noopener noreferrer" href="https://www.facebook.com/gobiernogto/?ref=br_rs" title="facebook"><i _ngcontent-shl-c44="" _ngcontent-vtq-c8="" class="fa-facebook fab" title="facebook"></i></a><a _ngcontent-shl-c44="" target="_blank" rel="noopener noreferrer" href="https://twitter.com/gobiernogto" title="twitter"><i _ngcontent-shl-c44="" _ngcontent-vtq-c8="" class="fa-twitter fab" title="twitter"></i></a><a _ngcontent-shl-c44="" target="_blank" rel="noopener noreferrer" href="https://www.youtube.com/user/gobiernoguanajuato" title="youtube"><i _ngcontent-shl-c44="" _ngcontent-vtq-c8="" class="fa-youtube fab" title="youtube"></i></a>
+              </div>
+            <div  class="derechos" title="2021 Gobierno del Estado de Guanajuato"> 
+                  © 2021 Gobierno del Estado de Guanajuato 
+            <div >
+            <a title="aviso legal" rel="noopener noreferrer" target="_blank" href="https://www.guanajuato.gob.mx/aviso-legal.php">Aviso legal</a>
+            </div>
+            </div>
+            </div>
+        </footer>
+
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script> 
+
+
+
+    </body>
+</html>
+    
+
+

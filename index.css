@@ -1,0 +1,125 @@
+
+body {
+    background-color: #fffbf7;
+    margin: 0ch;
+  }
+
+  .clsBannerSup{
+    
+    align-items:flex-start;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 162, 255);
+    padding-bottom: 20px;
+    height:110px;
+    margin-bottom: 10px;
+    align-items: flex-start;
+  }
+
+  .Figheaderlogo{
+       padding-left: 0px; 
+       display:inline-block;
+  
+  }
+  
+  
+ .Clsimgheader{
+  width: 100%;
+  padding-top: 5px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+      
+ }
+
+  .blocks{
+    display: table-row;
+
+     
+  }
+
+  
+  .p_footer{
+    text-align: center;
+    color: #6E6E6E;
+    font-size: 13px;
+    font-family: 'Proxima Nova';
+    text-align: center;
+  }
+
+.ClsFooter{
+    
+    margin-top: 50px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(0, 162, 255);
+ 
+ }
+
+ .clsAsideOpcion{
+   border-radius: 10px;
+   border-style: solid;
+   border-color: lightgray;
+   background-color: rgb(255, 255, 255);
+   padding-bottom: 40px;
+   padding-left: 20px;
+   margin: 10px 10px;
+   text-align: center;
+
+ }
+
+ .clsAsideOpcion:hover{
+   background-color: lightgreen;
+ }
+
+/*  .clsSection{
+   border-style: solid;
+   border-radius: 10px;
+   margin-top: 10px;
+   margin-bottom: 10px;
+   border-color: lightgray;
+
+  } */
+
+ a {
+  align-content: center; 
+  font-size: large; 
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: powderblue;
+  transition: background-color .5s;
+}
+
+a:hover {
+  background-color: gold;
+}
+
+.ClsOpcion{
+  text-align: center;
+  font-size: large;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+}
+
+.ClsSectionDiv{
+ padding: 10px 10px;
+ background-repeat: no-repeat;
+ background-image: url("./imagenes/empresario-apuntando-su-presentacion-pantalla-digital-futurista_53876-102617.jpg");
+ height: 300px;; 
+ width: auto;
+}
+
+ .clsdivcuerpo{
+  background-color: white;
+  padding-top: 10px;   
+}
+
+
+.clsPrimeropc{
+  width: auto;
+  height: auto;
+  background-image: "imagenes/empresario-apuntando-su-presentacion-pantalla-digital-futurista_53876-102617.jpg";
+}
+
+.btn{
+  margin-top: 10px;
+  
+}
