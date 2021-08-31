@@ -22,15 +22,12 @@
         <form class="d-flex row busqueda" justify-content-center>
            
             <div class="col-md-3">
-                <p> Usuario: </p>
-               
-            </div>
+                <p> <h4> Usuario: </h4>  </p>
+             </div>
             <div class="col-md-3">
-                <p> Hoy es,  </p>
-                
-
+              <span> <h5> Hoy es, </h5> </span>  </p>
             </div>
-            <div class="col-md-3">
+            <div class="col-md-3" justify-content-rigth>
                  <a href="#" class="btn btn-secondary">Cerrar sesión</a>    
             </div>
 
@@ -38,34 +35,45 @@
           </form>
         
      <div class="d-flex row">  
-        <aside class="d-flex col-lg-3">
-            <nav class="navbar navbar-expand-lg bg-secondary " style="background-color: #c2c3c4;">
-                                  
-                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
-                    <ul class="nav flex-column">
-                        <li class="nav-item">
-                          <a class="nav-link active" href="#">Origen</a>
+        <aside class="row flex-nowrap col-md-3">
+             <nav class=   "navbar navbar-expand-md bg-white ">
+              <div class="d-flex flex-column align-items-center align-items-sm-start px-3 pt-2 text-black">  
+                     <ul class="nav nav-pills flex-column mb-sm-auto mb-0 align-items-center align-items-sm-start" id="menu">                  
+                     
+                     
+                        
+                        
+                        <span> <h5> Filtrar por... </h5> </span>
+
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle dropdown-toggle-split" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Organozaciones</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">SFIA</a></li>
+                            <li><a class="dropdown-item" href="#">SG</a></li>
+                            <li><a class="dropdown-item" href="#">SECTUr</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Todas</a></li>
+                          </ul>
                         </li>
-                        <li class="nav-item">
-                          <a class="nav-link" href="#">Urgentes</a>
+                        <li class="nav-item dropdown">
+                          <a class="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-expanded="false">Partidas</a>
+                          <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="#">Computadoras</a></li>
+                            <li><a class="dropdown-item" href="#">Impresoras</a></li>
+                            <li><a class="dropdown-item" href="#">Enlaces</a></li>
+                            <li><hr class="dropdown-divider"></li>
+                            <li><a class="dropdown-item" href="#">Todas</a></li>
+                          </ul>
                         </li>
-                        <li class="nav-item">
-                          
-                          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
-                            <option selected>Partidas</option>
-                            <option value="1">3170</option>
-                            <option value="2">3330</option>
-                            <option value="3">4590</option>
-                          </select>
-                        </li>
-                      </ul>
+                        
+                     
                 </div>
             </nav>
         </aside>
 
-        <div class="col-sm-3">
-            <div class="card">
-                <div class="card-body">
+        <div class="col-sm-3 clsdivtarjeta">
+            <div class="card clstarjeta">
+                <div class="card-body ">
                   <h5 class="card-title">En tiempo</h5>
                   <p class="card-text">Hay 5 folios de validaciones </p>
                   <a href="#" class="btn btn-info">Info</a>
@@ -82,12 +90,11 @@
               </div>
             </div>
           </div>
+        </div>
 
-    </div>
-
-    <section class="d-flex row">
+    <section class="d-flex row"  style="padding-top:20px;">
         <div class="col-sm-3 offset-sm-3 ">
-            <div class="card clstarjeta">
+            <div class="card">
                 <div class="card-body">
                     <h5 class="card-title">Importe</h5>
                      <p class="card-text">Mayores de 2Mill.</p>
@@ -97,7 +104,7 @@
         </div>
         </div>
         <div class="col-sm-3">
-          <div class="card clstarjeta">
+          <div class="card">
             <div class="card-body">
               <h5 class="card-title">Marca</h5>
               <p class="card-text">Tienes 4 validaciones con marca</p>
@@ -111,8 +118,8 @@
          <div class="col-md-3 offset-md-2">
             <input class="form-control" type="search" placeholder="Folio" aria-label="Search">
         </div>
-     <div class="col-md-3">
-         <a href="#" class="btn btn-secondary">Buscar folio</a>
+     <div class="col-md-3" style="padding-bottom: 10px;">
+         <a href="#" class="btn btn-secondary bntbuscarfolio">Buscar folio</a>
      </div>
     </section>
 
@@ -125,7 +132,7 @@
           </h2>
           <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
             <div class="accordion-body">
-                Aqui va la Descripcion del folio de la validacion.
+                Aqui va la Descripcion del folio de la validacion. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quidem minima quis nisi iusto, repudiandae quia nihil pariatur cum veniam enim cumque deleniti? Ipsum quod repellendus iste est, quis inventore vel!
             </div>
           </div>
         </div>
