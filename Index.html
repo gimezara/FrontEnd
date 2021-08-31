@@ -14,69 +14,252 @@
     <body>
         
         <header>
-                <!-- <section class=" d-flex row clsBannerSup"> -->
                   <div class="col-12 clsBannerSup"> 
-                   <!-- <figure class="Figheaderlogo">  -->
-                     <img class="Clsimgheader" src="imagenes/logo-gl.svg" style="float:left" alt="Equipos logo" width="100" height="100">
-                   <!-- </figure> -->
+                        <img class="Clsimgheader" src="imagenes/logo-gl.svg" style="float:left" alt="Equipos logo" width="100" height="100">
                   </div> 
-                <!-- </section> -->
         </header>
-        
+      
+        <form class="d-flex row busqueda" justify-content-center>
            
+            <div class="col-md-3">
+                <p> Usuario: </p>
+               
+            </div>
+            <div class="col-md-3">
+                <p> Hoy es,  </p>
+                
 
-        <div class="d-flex row">
-          <aside class="col-md-12 clsaside">
+            </div>
+            <div class="col-md-3">
+                 <a href="#" class="btn btn-secondary">Cerrar sesión</a>    
+            </div>
+
+            
+          </form>
+        
+     <div class="d-flex row">  
+        <aside class="d-flex col-lg-3">
+            <nav class="navbar navbar-expand-lg bg-secondary " style="background-color: #c2c3c4;">
+                                  
+                <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+                    <ul class="nav flex-column">
+                        <li class="nav-item">
+                          <a class="nav-link active" href="#">Origen</a>
+                        </li>
+                        <li class="nav-item">
+                          <a class="nav-link" href="#">Urgentes</a>
+                        </li>
+                        <li class="nav-item">
+                          
+                          <select class="form-select form-select-sm" aria-label=".form-select-sm example">
+                            <option selected>Partidas</option>
+                            <option value="1">3170</option>
+                            <option value="2">3330</option>
+                            <option value="3">4590</option>
+                          </select>
+                        </li>
+                      </ul>
+                </div>
+            </nav>
+        </aside>
+
+        <div class="col-sm-3">
+            <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">En tiempo</h5>
+                  <p class="card-text">Hay 5 folios de validaciones </p>
+                  <a href="#" class="btn btn-info">Info</a>
+                </div>
+              </div>
+            </div>
+            <div class="col-sm-3">
+              <div class="card">
+                <div class="card-body">
+                  <h5 class="card-title">Vencidas</h5>
+                  <p class="card-text">Tienes 4 validaciones</p>
+                  <a href="#" class="btn btn-info">Info</a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+    </div>
+
+    <section class="d-flex row">
+        <div class="col-sm-3 offset-sm-3 ">
+            <div class="card clstarjeta">
+                <div class="card-body">
+                    <h5 class="card-title">Importe</h5>
+                     <p class="card-text">Mayores de 2Mill.</p>
+                    <a href="#" class="btn btn-info">Info</a>
+                </div>
+            </div>
+        </div>
+        </div>
+        <div class="col-sm-3">
+          <div class="card clstarjeta">
+            <div class="card-body">
+              <h5 class="card-title">Marca</h5>
+              <p class="card-text">Tienes 4 validaciones con marca</p>
+              <a href="#" class="btn btn-info">Info</a>
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="d-flex row clsbuscar">
+         <div class="col-md-3 offset-md-2">
+            <input class="form-control" type="search" placeholder="Folio" aria-label="Search">
+        </div>
+     <div class="col-md-3">
+         <a href="#" class="btn btn-secondary">Buscar folio</a>
+     </div>
+    </section>
+
+     <div class="accordion accordion-flush" id="accordionFlushExample">
+        <div class="accordion-item">
+          <h2 class="accordion-header" id="flush-headingOne">
+            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                Descripcion
+            </button>
+          </h2>
+          <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne" data-bs-parent="#accordionFlushExample">
+            <div class="accordion-body">
+                Aqui va la Descripcion del folio de la validacion.
+            </div>
+          </div>
+        </div>
+    </section>
+
+    <section class="d-flex row">
+    
+            <div class="col-lg-8 offset-lg-2 ClsTablaconenido">
              
-            <div class="col-3 clsAsideOpcion">
-               <P class="ClsPOpcion">Cargar información</P>
+              <h4><small>Contenido</small></h4>
+              <div class="table-responsive">
+              <table class="table">
+                  <thead>
+                      <tr>
+                          <th class="text-center">#</th>
+                          <th>Folio</th>
+                          <th>Descripcion</th>
+                          <th>partida</th>
+                          <th class="text-right">Total</th>
+                          <th class="text-right">Acciones</th>
+                      </tr>
+                  </thead>
+                  <tbody>
+                      <tr>
+                          <td class="text-center">1</td>
+                          <td>5150</td>
+                          <td>Equipo de computo</td>
+                          <td>5</td>
+                          <td class="text-right">150,000.00</td>
+                          <td class="td-actions text-right">
+                            <button type="button" rel="tooltip" class="btn btn-success btn-just-icon btn-sm" data-original-title="" title="">
+                                <i class="material-icons">ver</i>
+                            </button>
+                            <button type="button" rel="tooltip" class="btn btn-primary btn-just-icon btn-sm" data-original-title="" title="">
+                                <i class="material-icons">aprobar</i>
+                            </button>
+
+                            <button type="button" rel="tooltip" class="btn btn-danger btn-just-icon btn-sm" data-original-title="" title="">
+                                <i class="material-icons">Rechazar</i>
+                            </button>
+                          </td>
+                      </tr>
+                      <tr>
+  
+                        <td class="text-center">2</td>
+                        <td>5150</td>
+                        <td>Impresora mediana</td>
+                        <td>2</td>
+                        <td class="text-right">50,000.00</td>
+                        <td class="td-actions text-right">
+                            <button type="button" rel="tooltip" class="btn btn-success btn-just-icon btn-sm" data-original-title="" title="">
+                                <i class="material-icons">ver</i>
+                            </button>
+                            <button type="button" rel="tooltip" class="btn btn-primary btn-just-icon btn-sm" data-original-title="" title="">
+                                <i class="material-icons">aprobar</i>
+                            </button>
+
+                            <button type="button" rel="tooltip" class="btn btn-danger btn-just-icon btn-sm" data-original-title="" title="">
+                                <i class="material-icons">Rechazar</i>
+                            </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">3</td>
+                        <td>3270</td>
+                        <td>Office 365</td>
+                        <td>20</td>
+                        <td class="text-right">35,000.00</td>
+                        <td class="td-actions text-right">
+                            <button type="button" rel="tooltip" class="btn btn-success btn-just-icon btn-sm" data-original-title="" title="">
+                                <i class="material-icons">editar</i>
+                            </button>
+                            <button type="button" rel="tooltip" class="btn btn-danger btn-just-icon btn-sm" data-original-title="" title="">
+                                <i class="material-icons">Borrar</i>
+                            </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">4</td>
+                        <td>3270</td>
+                        <td>Autocad</td>
+                        <td>2</td>
+                        <td class="text-right">90,000.00</td>
+                        <td class="td-actions text-right">
+                            <button type="button" rel="tooltip" class="btn btn-success btn-just-icon btn-sm" data-original-title="" title="">
+                                <i class="material-icons">editar</i>
+                            </button>
+                            <button type="button" rel="tooltip" class="btn btn-danger btn-just-icon btn-sm" data-original-title="" title="">
+                                <i class="material-icons">Borrar</i>
+                            </button>
+                        </td>
+                      </tr>
+                      <tr>
+                        <td class="text-center">5</td>
+                        <td>3170</td>
+                        <td>Enlace asincrono 50M</td>
+                        <td>1</td>
+                        <td class="text-right">80,000.00</td>
+                        <td class="td-actions text-right">
+                            <button type="button" rel="tooltip" class="btn btn-success btn-just-icon btn-sm" data-original-title="" title="">
+                                <i class="material-icons">editar</i>
+                            </button>
+                            <button type="button" rel="tooltip" class="btn btn-danger btn-just-icon btn-sm" data-original-title="" title="">
+                                <i class="material-icons">Borrar</i>
+                            </button>
+                        </td>
+                      </tr>
+                  </tbody>
+              </table>
+              </div>
+
+
             </div>
-             <div class="col-3 clsAsideOpcion">
+        </section>
+
+        <!--         <section class="d-flex row">
+            <div class="col-md-3 offset-md-2 clsAsideOpcion">
+               <P>Cargar información</P>
+            </div>
+             <div class="col-md-2 clsAsideOpcion">
                <p>Ver información</p>
-              
-            </div>
-            <div class="col-3 clsAsideOpcion">
+             </div>
+            <div class="col-md-2 clsAsideOpcion">
               <p>Oficios</p>
-              
             </div>
-            <div class="col-3 clsAsideOpcion">
+            <div class="col-md-2 clsAsideOpcion">
               <p>Resumen</p>
            </div>
-          </aside>
-        </div>
-
-        <section class="d-flex row">
-            <div class="col-lg-6 offset-lg-3 ClsSectionDiv">
-              <span>Carga tu información</span>
-              <label for="formFile" class="form-label"> Selecciona tu archivo .json </label>
-              <input class="form-control" type="file" id="formFile">
-              <button type="submit" class="btn btn-primary" onclick="">Revisar</button>
-            </div>
-            <div>
-              <table
-              data-toggle="table"
-              data-url="data1.json"
-              data-pagination="true"
-              data-search="true">
-              <thead>
-                  <tr>
-                      <th data-sortable="true" data-field="id">Item ID</th>
-                      <th data-field="name">Item Name</th>
-                      <th data-field="price">Item Price</th>
-                  </tr>
-                </thead>
-            </table>  
-
-            </div>
-
-          </section>
-
-        
+        </section> -->
 
         <footer>
             <div class="col-12 text-center ClsFooter">
-              <div class="secretaria-title" title="Gobierno del Estado de Guanajuato"> 
-                   Gobierno del Estado de Guanajuato 
+              <div class="secretaria-title" title="COTECIT. Gobierno del Estado de Guanajuato"> 
+                   COTECIT. Gobierno del Estado de Guanajuato 
               </div>
               <div class="address" title="Paseo de la Presa 103, Centro, C.P. 36000, Guanajuato, Gto."> 
                    Paseo de la Presa 103, Centro, C.P. 36000, Guanajuato, Gto. TEL: 800 465-2486 
