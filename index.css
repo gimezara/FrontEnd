@@ -9,7 +9,7 @@ body {
     align-items:flex-start;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(0, 162, 255);
+    background-color: rgb(132, 138, 141);
     padding-bottom: 20px;
     height:110px;
     margin-bottom: 10px;
@@ -21,7 +21,12 @@ body {
        display:inline-block;
   
   }
-  
+  .busqueda{
+     background-color: white;
+     margin-bottom: 10px;
+     border-style: unset;
+
+  }
   
  .Clsimgheader{
   width: 100%;
@@ -51,7 +56,7 @@ body {
     margin-top: 50px;
     color: white;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(0, 162, 255);
+    background-color:rgb(132, 138, 141);
  
  }
 
@@ -63,49 +68,34 @@ body {
    padding-bottom: 40px;
    padding-left: 20px;
    margin: 10px 10px;
+   margin-left: 10px;
    text-align: center;
 
  }
 
  .clsAsideOpcion:hover{
-   background-color: lightgreen;
+   background-color: rgb(0, 162, 255);
+   color: white;
+ 
  }
 
-/*  .clsSection{
-   border-style: solid;
-   border-radius: 10px;
-   margin-top: 10px;
-   margin-bottom: 10px;
-   border-color: lightgray;
 
-  } */
-
- a {
-  align-content: center; 
-  font-size: large; 
-  font-family: Arial, Helvetica, sans-serif;
-  background-color: powderblue;
-  transition: background-color .5s;
-}
-
-a:hover {
-  background-color: gold;
-}
-
-.ClsOpcion{
-  text-align: center;
-  font-size: large;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-weight: bold;
-}
-
-.ClsSectionDiv{
+ .ClsSectionDiv{
+ align-content: flex-end;
  padding: 10px 10px;
  background-repeat: no-repeat;
  background-image: url("./imagenes/empresario-apuntando-su-presentacion-pantalla-digital-futurista_53876-102617.jpg");
- height: 300px;; 
- width: auto;
+ height: 500px; 
+ width: 900px;
+
 }
+
+.ClsTablaconenido{
+ margin-top: 30px; 
+ padding: 10px 10px;
+ background-color: rgb(226, 241, 250);
+}
+
 
  .clsdivcuerpo{
   background-color: white;
@@ -121,5 +111,22 @@ a:hover {
 
 .btn{
   margin-top: 10px;
-  
+ 
+}
+
+.clsinput{
+  width: 500px;
+
+}
+
+.clstarjeta{
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+
+.clsbuscar{
+  background-color: rgba(0, 0, 0, 0.459);
+  padding-top: 7px;
+  margin-top: 100px;
+  margin-bottom: 10px;
 }
